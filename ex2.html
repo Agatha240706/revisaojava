@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var titulo = prompt("Digite o titulo: ")
+        var autor = prompt("Digite o autor: ")
+        var anodePublicacao = prompt("Digite o ano de publicação: ")
+        
+        const livro ={
+            titulo: titulo,
+            autor: autor,
+            anodePublicacao: anodePublicacao,
+
+            livros() {
+                alert("O nome do autor ou autora é: " +this.autor)
+            }
+        }
+
+        livro.livros()
+
+    </script>
+</body>
+</html>
